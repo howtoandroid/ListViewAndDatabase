@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background = "@drawable/background">
+    <TextView
+        android:id="@+id/task_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/task_name"
+        />
+	<EditText
+	    android:id="@+id/input_name"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/put_your_name_here"
+	    />
+	 <TextView
+        android:id="@+id/task_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/task_time"
+        />
+	<EditText
+	    android:id="@+id/input_time"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/put_time_spent_here"
+	    />
+	 <TextView
+        android:id="@+id/problem_soved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/problem_solved"
+        />
+	<EditText
+	    android:id="@+id/input_num"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/put_number_problems_solved"
+	    />
+
+	<Button
+	    android:id="@+id/submit"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/add" 
+	    android:onClick="onClickAdd"
+	    />
+
+</LinearLayout>

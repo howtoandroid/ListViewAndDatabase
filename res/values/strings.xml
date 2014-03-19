@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListViewAndDatabase</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="put_your_name_here">Put you name here</string>
+    <string name="task_time">Task time</string>
+    <string name="put_time_spent_here">Put time spent on task here</string>
+    <string name="task_name">Task name</string>
+    <string name="problem_solved">Number problems solved</string>
+    <string name="put_number_problems_solved">Put number of problems solved</string>
+    <string name="submit">Submit</string>
+    <string name="add_task">Add Task</string>
+    <string name="sample">Sample</string>
+    <string name="sample1">Sample1</string>
+    <string name="sample2">Sample2</string>
+    <string name="add">add</string>
+    <string name="edit">edit</string>
+    <string name="title_activity_edit_task">EditTaskActivity</string>
+
+</resources>
